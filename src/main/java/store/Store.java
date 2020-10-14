@@ -4,6 +4,7 @@ import store.order.BusinessOrder;
 import store.order.CasualOrder;
 import store.order.Order;
 import store.order.OrderFactory;
+import store.roll.Roll;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -32,6 +33,10 @@ public class Store {
         Inventory inventory = new Inventory();
         List<Order> orderList;
 
+        double simulationProfit = 0.0;
+        int impacts = 0;
+        int[] rollCount = {0, 0, 0, 0, 0};
+
         for(int day = 1; day <= 30; day++) {
             orderList = orderFactory.createOrders();
 
@@ -53,8 +58,13 @@ public class Store {
                 int typeInt = orderToInt(order);
                 double orderTotal = order.placeOrder(inventory);
 
+                // increase roll type counter
+                for(Roll roll: order.getRolls())
+                    rollCount[roll.getType() - 1]++;
+
                 if (orderTotal < 0.0) {  // order failed
                     numFailed.set(typeInt, numFailed.get(typeInt) + 1);
+                    impacts++;
                 } else {
                     orderTotals.set(typeInt, orderTotals.get(typeInt) + orderTotal);
                     profit += orderTotal;
@@ -92,6 +102,8 @@ public class Store {
             }
 
             inventory.refillRoll();
+
+            simulationProfit += profit;
         }
     }
 }
