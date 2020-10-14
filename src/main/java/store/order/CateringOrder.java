@@ -41,7 +41,7 @@ public class CateringOrder extends Order {
                     // take [1, numDesired] of rolls in stock
                     if (numDesired > amountInStock && amountInStock >= 0) {
                         int numToRemove = numDesired - amountInStock;  // num to remove from out list of rolls
-                        rollKeys.remove(i);
+                        rollKeys.remove(rollKeys.indexOf(i + 1));
 
                         while (numToRemove > 0) {
                             for (int j = 0; j < this.rolls.size(); j++) {
