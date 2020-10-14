@@ -16,4 +16,8 @@ public abstract class RollDecorator extends Roll {
     public double getCost(){
         return this.roll.getBaseCost();
     }
+
+    public int getType() {
+        return this.roll.getType();
+    }
 }
