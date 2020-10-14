@@ -12,7 +12,17 @@ Factory was used for both creating orders and also creating the rolls.
 
 
 #Special Instructions to Run
-TODO
+To run the code, run the following commands:
+```
+mvn clean compile
+cd target/classes/
+java store.Store
+```
+
+To test the code, run the following command:
+```
+mvn clean test
+```
 
 #Tools for Development
 We used Intellij IDEA to code this project in java and used gitkraken for version control.
