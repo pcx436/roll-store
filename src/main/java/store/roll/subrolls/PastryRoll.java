@@ -8,5 +8,6 @@ public class PastryRoll extends Roll {
         this.baseCost = 1.99;
         this.description = "ya sauced boi, jacob";
         this.costStrategy = new PastryRollStrategy();
+        this.type = 4;
     }
 }

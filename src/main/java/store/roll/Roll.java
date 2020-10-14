@@ -6,6 +6,7 @@ public abstract class Roll {
     protected String description;
     protected double baseCost;
     protected CostStrategy costStrategy;
+    protected int type;
 
     public String getDescription() {
         return description;
@@ -30,6 +31,8 @@ public abstract class Roll {
     public void setCostStrategy(CostStrategy costStrategy) {
         this.costStrategy = costStrategy;
     }
+
+    public int getType(){ return type; }
 
     //TODO: change descriptions of rolls
 }

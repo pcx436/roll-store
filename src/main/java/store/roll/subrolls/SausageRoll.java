@@ -8,5 +8,6 @@ public class SausageRoll extends Roll {
         this.baseCost = 0.25;
         this.description = "slausage";
         this.costStrategy = new SausageRollStrategy();
+        this.type = 3;
     }
 }

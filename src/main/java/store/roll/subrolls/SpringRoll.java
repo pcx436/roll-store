@@ -8,5 +8,6 @@ public class SpringRoll extends Roll {
         this.baseCost = 1.99;
         this.description = "fall roll";
         this.costStrategy = new SpringRollStrategy();
+        this.type = 1;
     }
 }

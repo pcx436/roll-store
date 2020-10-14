@@ -5,11 +5,10 @@ import store.roll.Roll;
 public class ExtraFilling extends RollDecorator {
     public ExtraFilling(Roll roll){
         super(roll);
-        System.out.println(", with extra feeling");
     }
 
     public String getDescription(){
-        return this.roll.getDescription() + ", filling";
+        return this.roll.getDescription() + ", with extra feeling";
     }
 
     public double getCost(){

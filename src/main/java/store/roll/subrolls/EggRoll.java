@@ -8,5 +8,6 @@ public class EggRoll extends Roll {
         this.baseCost = 2.99;
         this.description = "Vincent's left";
         this.costStrategy = new EggRollStrategy();
+        this.type = 2;
     }
 }
