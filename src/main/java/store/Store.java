@@ -4,6 +4,9 @@ import store.order.BusinessOrder;
 import store.order.CasualOrder;
 import store.order.Order;
 import store.order.OrderFactory;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
@@ -47,14 +50,47 @@ public class Store {
             printInventory(inventory);
 
             for (Order order: orderList) {
+                int typeInt = orderToInt(order);
                 double orderTotal = order.placeOrder(inventory);
 
                 if (orderTotal < 0.0) {  // order failed
-                    // TODO:
+                    numFailed.set(typeInt, numFailed.get(typeInt) + 1);
+                } else {
+                    orderTotals.set(typeInt, orderTotals.get(typeInt) + orderTotal);
+                    profit += orderTotal;
                 }
+
+                if (order.isEffectedByOutage())
+                    outageVictims.set(typeInt, outageVictims.get(typeInt) + 1);
+
+                if (inventory.isClosed())
+                    break;
             }
 
             printInventory(inventory);
+
+            // end of day printing
+            DecimalFormat df = new DecimalFormat("#.##");
+            System.out.println("The net profit for today was $" + df.format(profit));
+
+            System.out.println("The net profit for each type of customer was:");
+            System.out.println("\t$" + df.format(orderTotals.get(0)) + " from casual customers.");
+            System.out.println("\t$" + df.format(orderTotals.get(1)) + " from business customers.");
+            System.out.println("\t$" + df.format(orderTotals.get(2)) + " from catering customers.");
+
+            System.out.println("The customers affected by any roll outages are:");
+            System.out.println("\t" + df.format(numFailed.get(0)) + " from casual customers.");
+            System.out.println("\t" + df.format(numFailed.get(1)) + " from business customers.");
+            System.out.println("\t" + df.format(numFailed.get(2)) + " from catering customers.");
+
+            if (inventory.isClosed())
+                System.out.println("The store closed early today due to running out of inventory.");
+
+            // roll orders by type
+            for(int i = 1; i <= 5; i++){
+                System.out.println(30 - inventory.getRollAmount(i) + " " + inventory.typeToString(i) + "s were sold today");
+            }
+
             inventory.refillRoll();
         }
     }
