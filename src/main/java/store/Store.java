@@ -117,5 +117,6 @@ public class Store {
         }
         System.out.println("\t" + totalRolls + " rolls were sold in total.");
         System.out.println("\tThe total profit margin was $" + df.format(simulationProfit));
+        System.out.println("\t" + impacts + " customers were impacted by one or more roll outages.");
     }
 }
