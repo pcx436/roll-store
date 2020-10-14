@@ -31,7 +31,7 @@ public abstract class Order {
         }
     }
 
-    public abstract Boolean placeOrder(Inventory invent);
+    public abstract double placeOrder(Inventory invent);
 
     public boolean canFillOrder(Inventory invent) {
 
