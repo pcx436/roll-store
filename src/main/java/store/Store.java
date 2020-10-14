@@ -105,5 +105,17 @@ public class Store {
 
             simulationProfit += profit;
         }
+
+        int totalRolls = 0;
+
+        System.out.println("Simulation completed!");
+        System.out.println("Completion stats:");
+
+        for(int i = 0; i < 5; i++) {
+            System.out.println("\t" + rollCount[i] + " " + inventory.typeToString(i + 1) + "s were sold.");
+            totalRolls += rollCount[i];
+        }
+        System.out.println("\t" + totalRolls + " rolls were sold in total.");
+        System.out.println("\tThe total profit margin was $" + df.format(simulationProfit));
     }
 }
