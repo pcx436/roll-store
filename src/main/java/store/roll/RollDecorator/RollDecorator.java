@@ -13,7 +13,8 @@ public abstract class RollDecorator extends Roll {
         return this.roll.getDescription();
     }
 
-    public double getCost(){
+    @Override
+    public double getBaseCost(){
         return this.roll.getBaseCost();
     }
 
