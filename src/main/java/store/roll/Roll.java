@@ -1,4 +1,4 @@
 package store.roll;
 
-public abstract class Roll {
+public interface Roll {
 }
