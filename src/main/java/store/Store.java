@@ -20,9 +20,9 @@ public class Store {
     }
 
     private static int orderToInt(Order order) {
-        if (CasualOrder.class.isInstance(order))
+        if (order instanceof CasualOrder)
             return 0;
-        else if (BusinessOrder.class.isInstance(order))
+        else if (order instanceof BusinessOrder)
             return 1;
         else
             return 2;
