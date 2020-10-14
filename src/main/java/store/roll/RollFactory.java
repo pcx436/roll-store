@@ -9,8 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+//1 of the 3 Design Patterns for this Project
 public class RollFactory {
 
+    //creating new roll object based on type passed in
     private Roll generateRoll(int type) {
         Roll ret;
         if (type == 1) {
@@ -31,6 +33,7 @@ public class RollFactory {
         return extras(ret);
     }
 
+    //handles the random chances of adding extras to each roll upon creation
     private Roll extras(Roll roll) {
         Random r = new Random();
         int sauce = r.nextInt(4) ;
@@ -49,19 +52,20 @@ public class RollFactory {
         return roll;
     }
 
-
+    //prepares 1-3 rolls of randomly determined types
     public List<Roll> casualOrder() {
         Random r = new Random();
-        int total = r.nextInt(3) + 1;
+        int total = r.nextInt(3) + 1; //random number of rolls 1-3
         List<Roll> ret = new ArrayList<>();
 
         for (int i = 0; i < total; i++) {
-            int type = r.nextInt(5) + 1;
+            int type = r.nextInt(5) + 1; //random type
             ret.add(generateRoll(type));
         }
         return ret;
     }
 
+    //10 rolls total, 2 of each type
     public List<Roll>  businessOrder() {
         List<Roll> ret = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
@@ -71,17 +75,20 @@ public class RollFactory {
         return ret;
     }
 
+    //5 rolls of 3 different types
     public List<Roll> caterOrder() {
         Random r = new Random();
         List<Integer> types = new ArrayList<>();
         List<Roll> ret = new ArrayList<>();
         while (types.size() < 3) {
-            int type = r.nextInt(5) + 1;
+            int type = r.nextInt(5) + 1; //random pick types
             if (types.contains(Integer.valueOf(type)) == false) {
                 types.add(type);
+                //this if condition is checking to see if the type has already been selected for this order
             }
         }
 
+        //now that types are picked, we generate 5 of each of the 3 types
         for (Integer num: types) {
             ret.add(generateRoll(num.intValue()));
             ret.add(generateRoll(num.intValue()));
@@ -92,6 +99,7 @@ public class RollFactory {
         return ret;
     }
 
+    //function to help easily generate N rolls given the type
     public List<Roll> generateNRolls(int type, int n) {
         List<Roll> ret = new ArrayList<>();
         for (int i = 0; i < n; i++) {
