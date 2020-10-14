@@ -4,9 +4,11 @@ import java.util.HashMap;
 
 public class Inventory {
     private final HashMap<Integer, Integer> dict;
+    private boolean isClosed;
 
     public Inventory(){
         dict = new HashMap<>();
+        isClosed = false;
 
         // initializing all rolls to 30
         for (int i = 0; i < 5; i++){
@@ -40,8 +42,10 @@ public class Inventory {
                     allOut = false;
             }
 
-            if (allOut)
+            if (allOut) {
                 System.out.println("NOTICE: The store has no more rolls for the day. Please check back tomorrow!");
+                isClosed = true;
+            }
 
             return true;
         } else {
@@ -65,5 +69,9 @@ public class Inventory {
         else {
             return "jelly roll";
         }
+    }
+
+    public boolean isClosed() {
+        return isClosed;
     }
 }
