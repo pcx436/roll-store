@@ -10,10 +10,10 @@ public abstract class RollDecorator extends Roll {
     }
 
     public String getDescription(){
-        return this.roll.getDesciption();
+        return this.roll.getDescription();
     }
 
     public double getCost(){
-        return this.roll.getCost();
+        return this.roll.getBaseCost();
     }
 }
