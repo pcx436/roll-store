@@ -13,8 +13,15 @@ public class BusinessOrder extends Order {
 
     @Override
     public Boolean placeOrder(Inventory invent) {
-        //TODO
-        return true;
+        if (canFillOrder(invent)) {
+            for (int i = 1; i <= 5; i++) {
+                invent.buyRolls(i, 2);
+            }
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }
