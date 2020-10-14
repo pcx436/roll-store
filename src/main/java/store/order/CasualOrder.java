@@ -26,19 +26,20 @@ public class CasualOrder extends Order {
         } else {  // cannot fill order, figure it out
             RollFactory rollFactory = new RollFactory();
             List<Integer> rollKeys = new ArrayList<>();
-            int originalRollCount = 0;
+            int originalRollCount = 0;  // keep track of original desire for number of rolls
             for(int i = 0; i < 5; i++) {
                 originalRollCount += this.rollCount[i];
                 rollKeys.add(i + 1);
             }
 
 
+            // for each type of roll,
             for (int i = 0; i < 5; i++){
                 int numDesired = this.rollCount[i];
                 int currentRollType = i + 1;
 
                 if (numDesired > 0){
-                    int amountInStock = invent.getRollAmount(currentRollType);
+                    int amountInStock = invent.getRollAmount(currentRollType);  // check stock of current roll type
 
                     // take [1, numDesired] of rolls in stock
                     if (numDesired > amountInStock && amountInStock >= 0) {
