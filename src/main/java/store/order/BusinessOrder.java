@@ -13,6 +13,7 @@ public class BusinessOrder extends Order {
 
     @Override
     public Boolean placeOrder(Inventory invent) {
+        //if order is able to be filled, then buy rolls 2 of each of the 5 types of rolls
         if (canFillOrder(invent)) {
             for (int i = 1; i <= 5; i++) {
                 invent.buyRolls(i, 2);
@@ -20,6 +21,7 @@ public class BusinessOrder extends Order {
             return true;
         }
         else {
+            //else, the business customer doesn't buy any rolls if they can't get the order perfect
             return false;
         }
     }

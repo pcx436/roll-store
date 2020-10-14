@@ -1,6 +1,7 @@
 package store.roll.CostStrategy;
 
 public class SausageRollStrategy implements CostStrategy {
+    //override cost of extras for given specific roll
     @Override
     public double getFillingCost() {
         return 0.01;

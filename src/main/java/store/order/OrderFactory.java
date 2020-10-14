@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+//1 of 3 Distinct Design Patterns for this Project
 public class OrderFactory {
     private final RollFactory rollFactory;
 
