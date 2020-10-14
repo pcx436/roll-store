@@ -31,8 +31,16 @@ public abstract class Order {
         }
     }
 
-    public Boolean placeOrder(Inventory invent) {
-        //TODO
+    public abstract Boolean placeOrder(Inventory invent);
+
+    public boolean canFillOrder(Inventory invent) {
+
+        // see if the count of a given roll type is too much for what's in stock
+        for (int i = 0; i < 5; i++){
+            if (rollCount[i] != 0 && invent.getRollAmount(i + 1) < rollCount[i])
+                return false;
+        }
+
         return true;
     }
 }
