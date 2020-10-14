@@ -3,6 +3,7 @@ package store.roll.RollDecorator;
 import store.roll.Roll;
 
 public class ExtraSauce extends RollDecorator {
+    //constructor
     public ExtraSauce(Roll roll){
         super(roll);
     }

@@ -12,6 +12,7 @@ public class BusinessOrder extends Order {
     }
 
     @Override
+    //logic for business order
     public Boolean placeOrder(Inventory invent) {
         //if order is able to be filled, then buy rolls 2 of each of the 5 types of rolls
         if (canFillOrder(invent)) {

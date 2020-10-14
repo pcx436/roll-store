@@ -3,7 +3,6 @@ package store.roll.RollDecorator;
 import store.roll.Roll;
 
 //1 of 3 Distinct Design Patterns for this Project
-//Second Factory used
 public abstract class RollDecorator extends Roll {
     protected Roll roll;
 

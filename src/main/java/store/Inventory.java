@@ -26,6 +26,7 @@ public class Inventory {
         }
     }
 
+    //updating the stock when rolls are purchases
     public Boolean buyRolls(int type, int num) {
         if (dict.get(type) >= num){
             dict.put(type, dict.get(type) - num);
@@ -49,6 +50,7 @@ public class Inventory {
         }
     }
 
+    //function to convert the int representation of the type to string
     private String typeToString(int type) {
         if (type == 1) {
             return "spring roll";

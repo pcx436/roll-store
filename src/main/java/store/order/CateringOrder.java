@@ -14,6 +14,7 @@ public class CateringOrder extends Order {
     }
 
     @Override
+    //logic for catering order
     public Boolean placeOrder(Inventory invent) {
         int totalRolls = 15;
         if(canFillOrder(invent)){
