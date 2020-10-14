@@ -1,4 +1,6 @@
 package store.roll.subrolls;
 
-public class JellyRoll {
+import store.roll.Roll;
+
+public class JellyRoll implements Roll {
 }

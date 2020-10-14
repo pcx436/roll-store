@@ -1,4 +1,6 @@
 package store.roll.subrolls;
 
-public class SausageRoll {
+import store.roll.Roll;
+
+public class SausageRoll implements Roll {
 }

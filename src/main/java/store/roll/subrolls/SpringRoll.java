@@ -1,4 +1,6 @@
 package store.roll.subrolls;
 
-public class SpringRoll {
+import store.roll.Roll;
+
+public class SpringRoll implements Roll {
 }
