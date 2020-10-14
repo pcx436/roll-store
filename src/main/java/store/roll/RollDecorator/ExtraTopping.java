@@ -7,11 +7,13 @@ public class ExtraTopping extends RollDecorator {
         super(roll);
     }
 
+    @Override
     public String getDescription(){
         return this.roll.getDescription() + ", with extra topping";
     }
 
-    public double getCost(){
+    @Override
+    public double getBaseCost(){
         return this.roll.getBaseCost() + this.roll.getCostStrategy().getToppingCost();
     }
 }
