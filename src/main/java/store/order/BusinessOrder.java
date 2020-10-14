@@ -12,15 +12,15 @@ public class BusinessOrder extends Order {
     }
 
     @Override
-    public Boolean placeOrder(Inventory invent) {
+    public double placeOrder(Inventory invent) {
         if (canFillOrder(invent)) {
-            for (int i = 1; i <= 5; i++) {
-                invent.buyRolls(i, 2);
-            }
-            return true;
+            System.out.println("A business customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");
+            submitOrder(invent);
+            return getTotal();
         }
         else {
-            return false;
+            System.out.println("A business customer was unable to fill their order.");
+            return -1.0;
         }
     }
 

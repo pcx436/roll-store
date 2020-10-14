@@ -1,5 +1,6 @@
 package store.roll.RollDecorator;
 
+import store.roll.CostStrategy.CostStrategy;
 import store.roll.Roll;
 
 public abstract class RollDecorator extends Roll {
@@ -13,11 +14,16 @@ public abstract class RollDecorator extends Roll {
         return this.roll.getDescription();
     }
 
-    public double getCost(){
+    @Override
+    public double getBaseCost(){
         return this.roll.getBaseCost();
     }
 
     public int getType() {
         return this.roll.getType();
+    }
+
+    public CostStrategy getCostStrategy() {
+        return this.roll.getCostStrategy();
     }
 }

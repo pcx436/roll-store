@@ -6,7 +6,7 @@ import store.roll.Roll;
 public class SpringRoll extends Roll {
     public SpringRoll() {
         this.baseCost = 1.99;
-        this.description = "fall roll";
+        this.description = "spring roll";
         this.costStrategy = new SpringRollStrategy();
         this.type = 1;
     }

@@ -6,7 +6,7 @@ import store.roll.Roll;
 public class JellyRoll extends Roll {
     public JellyRoll() {
         this.baseCost = 9.99;
-        this.description = "kyle";
+        this.description = "jelly roll";
         this.costStrategy = new JellyRollStrategy();
         this.type = 5;
     }
