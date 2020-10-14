@@ -1,4 +1,4 @@
 package store.roll.CostStrategy;
 
-public class SausageRollStrategy {
+public class SausageRollStrategy implements CostStrategy {
 }

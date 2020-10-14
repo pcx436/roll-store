@@ -1,4 +1,4 @@
 package store.roll.CostStrategy;
 
-public class JellyRollStrategy {
+public class JellyRollStrategy implements CostStrategy {
 }

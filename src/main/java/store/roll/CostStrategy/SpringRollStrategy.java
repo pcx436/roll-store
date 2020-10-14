@@ -1,4 +1,4 @@
 package store.roll.CostStrategy;
 
-public class SpringRollStrategy {
+public class SpringRollStrategy implements CostStrategy {
 }
