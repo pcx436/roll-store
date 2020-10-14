@@ -1,4 +1,4 @@
 package store.order;
 
-public class BusinessOrder {
+public class BusinessOrder extends Order {
 }
