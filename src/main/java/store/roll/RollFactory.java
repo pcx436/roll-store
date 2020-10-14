@@ -63,14 +63,40 @@ public class RollFactory {
     }
 
     public List<Roll>  businessOrder() {
-
+        List<Roll> ret = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            ret.add(generateRoll(i+1));
+            ret.add(generateRoll(i+1));
+        }
+        return ret;
     }
 
     public List<Roll> caterOrder() {
+        Random r = new Random();
+        List<Integer> types = new ArrayList<>();
+        List<Roll> ret = new ArrayList<>();
+        while (types.size() < 3) {
+            int type = r.nextInt(5) + 1;
+            if (types.contains(Integer.valueOf(type)) == false) {
+                types.add(type);
+            }
+        }
 
+        for (Integer num: types) {
+            ret.add(generateRoll(num.intValue()));
+            ret.add(generateRoll(num.intValue()));
+            ret.add(generateRoll(num.intValue()));
+            ret.add(generateRoll(num.intValue()));
+            ret.add(generateRoll(num.intValue()));
+        }
+        return ret;
     }
 
-    public List<Roll> generateNRolls(String type, int n) {
-
+    public List<Roll> generateNRolls(int type, int n) {
+        List<Roll> ret = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            ret.add(generateRoll(type));
+        }
+        return ret;
     }
 }
