@@ -32,6 +32,7 @@ public class Store {
         OrderFactory orderFactory = new OrderFactory();
         Inventory inventory = new Inventory();
         List<Order> orderList;
+        DecimalFormat df = new DecimalFormat("#.##");
 
         double simulationProfit = 0.0;
         int impacts = 0;
@@ -80,7 +81,6 @@ public class Store {
             printInventory(inventory);
 
             // end of day printing
-            DecimalFormat df = new DecimalFormat("#.##");
             System.out.println("The net profit for today was $" + df.format(profit));
 
             System.out.println("The net profit for each type of customer was:");
