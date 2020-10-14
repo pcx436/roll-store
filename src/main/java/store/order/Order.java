@@ -9,10 +9,12 @@ import java.util.List;
 public abstract class Order {
     protected List<Roll> rolls;
     protected int[] rollCount = {0, 0, 0, 0, 0};
+    protected boolean effectedByOutage;
     protected final DecimalFormat df = new DecimalFormat("#.##");
 
     public Order(List<Roll> rolls) {
         this.setRolls(rolls);
+        effectedByOutage = false;
     }
 
 
@@ -46,8 +48,10 @@ public abstract class Order {
 
         // see if the count of a given roll type is too much for what's in stock
         for (int i = 0; i < 5; i++){
-            if (rollCount[i] != 0 && invent.getRollAmount(i + 1) < rollCount[i])
+            if (rollCount[i] != 0 && invent.getRollAmount(i + 1) < rollCount[i]) {
+                effectedByOutage = true;
                 return false;
+            }
         }
 
         return true;
@@ -61,4 +65,6 @@ public abstract class Order {
 
         return total;
     }
+
+    public boolean isEffectedByOutage(){ return effectedByOutage; }
 }
