@@ -1,8 +1,5 @@
 package store;
 
-import store.roll.Roll;
-import store.roll.subrolls.*;
-
 import java.util.HashMap;
 
 public class Inventory {
