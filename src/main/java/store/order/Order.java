@@ -33,6 +33,13 @@ public abstract class Order {
 
     public abstract double placeOrder(Inventory invent);
 
+    protected void submitOrder(Inventory invent){
+        for (Roll roll: this.rolls) {
+            System.out.println("\t" + roll.getDescription());
+            invent.buyRolls(roll.getType(), 1);
+        }
+    }
+
     public boolean canFillOrder(Inventory invent) {
 
         // see if the count of a given roll type is too much for what's in stock
@@ -42,5 +49,14 @@ public abstract class Order {
         }
 
         return true;
+    }
+
+    public double getTotal(){
+        double total = 0.0;
+        for(Roll roll: this.rolls) {
+            total += roll.getBaseCost();
+        }
+
+        return total;
     }
 }

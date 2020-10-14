@@ -14,14 +14,12 @@ public class CasualOrder extends Order {
     }
 
     @Override
-    public Boolean placeOrder(Inventory invent) {
+    public double placeOrder(Inventory invent) {
 
         if (canFillOrder(invent)){
-            for (int i = 0; i < 5; i++) {
-                if (this.rollCount[i] > 0)  // only buy rolls we want
-                    invent.buyRolls(i + 1, this.rollCount[i]);
-            }
-            return true;
+            System.out.println("A casual customer was able to place an order with total $" + this.getTotal() + " with the following rolls:");
+            submitOrder(invent);
+            return getTotal();
         } else {  // cannot fill order, figure it out
             RollFactory rollFactory = new RollFactory();
             List<Integer> rollKeys = new ArrayList<>();
@@ -78,13 +76,12 @@ public class CasualOrder extends Order {
             }
 
             if (this.rolls.size() > 0 && canFillOrder(invent)) {
-                for (int i = 0; i < 5; i++) {
-                    if (this.rollCount[i] > 0)  // only buy rolls we want
-                        invent.buyRolls(i + 1, this.rollCount[i]);
-                }
-                return true;
+                System.out.println("A casual customer was able to place an order with total $" + this.getTotal() + " with the following rolls:");
+                submitOrder(invent);
+                return getTotal();
             } else {
-                return false;
+                System.out.println("A casual customer was unable to fill their order.");
+                return -1.0;
             }
         }
 
