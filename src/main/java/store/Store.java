@@ -32,6 +32,17 @@ public class Store {
         for(int day = 1; day <= 30; day++) {
             orderList = orderFactory.createOrders();
 
+            double profit = 0.0;
+            List<Double> orderTotals = new ArrayList<>();
+            List<Integer> numFailed = new ArrayList<>();
+            List<Integer> outageVictims = new ArrayList<>();
+
+            for(int i = 0; i < 3; i++) {
+                orderTotals.add(0.0);
+                numFailed.add(0);
+                outageVictims.add(0);
+            }
+
             System.out.println("It is day #" + day);
             printInventory(inventory);
 
