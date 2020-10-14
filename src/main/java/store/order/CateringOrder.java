@@ -14,13 +14,12 @@ public class CateringOrder extends Order {
     }
 
     @Override
-    public Boolean placeOrder(Inventory invent) {
+    public double placeOrder(Inventory invent) {
         int totalRolls = 15;
         if(canFillOrder(invent)){
-            for (int i = 0; i < 5; i++) {
-                if (this.rollCount[i] > 0)  // only buy rolls we want
-                    invent.buyRolls(i + 1, this.rollCount[i]);
-            }
+            System.out.println("A catering customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");
+            submitOrder(invent);
+            return getTotal();
         } else{
             RollFactory rollFactory = new RollFactory();
             List<Integer> rollKeys = new ArrayList<>();
@@ -42,7 +41,7 @@ public class CateringOrder extends Order {
                     // take [1, numDesired] of rolls in stock
                     if (numDesired > amountInStock && amountInStock >= 0) {
                         int numToRemove = numDesired - amountInStock;  // num to remove from out list of rolls
-                        rollKeys.remove(i);
+                        rollKeys.remove(rollKeys.indexOf(i + 1));
 
                         while (numToRemove > 0) {
                             for (int j = 0; j < this.rolls.size(); j++) {
@@ -75,16 +74,14 @@ public class CateringOrder extends Order {
             }
 
             if (this.rolls.size() > 0 && canFillOrder(invent)) {
-                for (int i = 0; i < 5; i++) {
-                    if (this.rollCount[i] > 0)  // only buy rolls we want
-                        invent.buyRolls(i + 1, this.rollCount[i]);
-                }
-                return true;
+                System.out.println("A catering customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");
+                submitOrder(invent);
+                return getTotal();
             } else {
-                return false;
+                System.out.println("A catering customer was unable to complete their order.");
+                return -1.0;
             }
 
         }
-        return true;
     }
 }

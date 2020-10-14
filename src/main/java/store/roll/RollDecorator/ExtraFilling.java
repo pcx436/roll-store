@@ -7,11 +7,14 @@ public class ExtraFilling extends RollDecorator {
         super(roll);
     }
 
+    @Override
     public String getDescription(){
-        return this.roll.getDescription() + ", with extra feeling";
+        return this.roll.getDescription() + ", with extra filling";
     }
 
-    public double getCost(){
+    @Override
+    public double getBaseCost(){
         return this.roll.getBaseCost() + this.roll.getCostStrategy().getFillingCost();
     }
+
 }

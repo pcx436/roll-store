@@ -33,6 +33,4 @@ public abstract class Roll {
     }
 
     public int getType(){ return type; }
-
-    //TODO: change descriptions of rolls
 }

@@ -7,11 +7,13 @@ public class ExtraSauce extends RollDecorator {
         super(roll);
     }
 
+    @Override
     public String getDescription(){
         return this.roll.getDescription() + ", with extra sauce";
     }
 
-    public double getCost(){
+    @Override
+    public double getBaseCost(){
         return this.roll.getBaseCost() + this.roll.getCostStrategy().getSauceCost();
     }
 }
