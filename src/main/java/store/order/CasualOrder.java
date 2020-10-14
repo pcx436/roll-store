@@ -64,17 +64,30 @@ public class CasualOrder extends Order {
             // repopulate with roll types
             Collections.shuffle(rollKeys);
 
-            for(int i = 0; i < rollKeys.size(); i++) {
+            // keep adding rolls until we meet the original count or we cant add more
+            for(int i = 0; i < rollKeys.size() && this.rolls.size() < originalRollCount; i++) {
                 Integer type = rollKeys.get(i);
 
                 int inStock = invent.getRollAmount(type);
-                if (inStock > 0 && inStock >= originalRollCount - this.rolls.size()) {
+                if (inStock >= originalRollCount - this.rolls.size()) {  // can use current roll type to fill to total
+                    this.rolls.addAll(rollFactory.generateNRolls(type, originalRollCount - this.rolls.size()));
+                } else if (inStock > 0 && inStock < originalRollCount - this.rolls.size()){  // cannot fill to total
+                    this.rolls.addAll(rollFactory.generateNRolls(type, inStock));
+                }
 
-                } else if (inStock > 0 )
+                this.setRolls(this.rolls);
             }
 
+            if (this.rolls.size() > 0 && canFillOrder(invent)) {
+                for (int i = 0; i < 5; i++) {
+                    if (this.rollCount[i] > 0)  // only buy rolls we want
+                        invent.buyRolls(i + 1, this.rollCount[i]);
+                }
+                return true;
+            } else {
+                return false;
+            }
         }
 
-        return true;
     }
 }
