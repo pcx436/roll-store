@@ -15,6 +15,7 @@ public class CateringOrder extends Order {
 
     @Override
     public double placeOrder(Inventory invent) {
+    //logic for catering order
         int totalRolls = 15;
         if(canFillOrder(invent)){
             System.out.println("A catering customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");

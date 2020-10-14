@@ -12,16 +12,19 @@ public abstract class Order {
     protected boolean effectedByOutage;
     protected final DecimalFormat df = new DecimalFormat("#.##");
 
+    //constructor
     public Order(List<Roll> rolls) {
         this.setRolls(rolls);
         effectedByOutage = false;
     }
 
 
+    //getter for list of rolls
     public List<Roll> getRolls() {
         return rolls;
     }
 
+    //setter for list of rolls
     public void setRolls(List<Roll> rolls) {
         this.rolls = rolls;
 
@@ -35,6 +38,7 @@ public abstract class Order {
         }
     }
 
+    //abstract method to handle different placeOrder functionality per customer type (business, cater, casual)
     public abstract double placeOrder(Inventory invent);
 
     protected void submitOrder(Inventory invent){
@@ -44,6 +48,7 @@ public abstract class Order {
         }
     }
 
+    //returns a boolean on whether or not the inventory has the stock for a given order to be completed
     public boolean canFillOrder(Inventory invent) {
 
         // see if the count of a given roll type is too much for what's in stock

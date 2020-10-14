@@ -14,6 +14,7 @@ public class CasualOrder extends Order {
     }
 
     @Override
+    //logic for casual order
     public double placeOrder(Inventory invent) {
 
         if (canFillOrder(invent)){

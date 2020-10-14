@@ -3,6 +3,7 @@ package store.roll.RollDecorator;
 import store.roll.Roll;
 
 public class ExtraFilling extends RollDecorator {
+    //constructor
     public ExtraFilling(Roll roll){
         super(roll);
     }

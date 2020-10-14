@@ -1,6 +1,7 @@
 package store.roll.CostStrategy;
 
 public class SpringRollStrategy implements CostStrategy {
+    //override cost of extras for given specific roll
     @Override
     public double getFillingCost() {
         return 3.33;
