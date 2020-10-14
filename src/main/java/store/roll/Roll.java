@@ -30,4 +30,6 @@ public abstract class Roll {
     public void setCostStrategy(CostStrategy costStrategy) {
         this.costStrategy = costStrategy;
     }
+
+    //TODO: change descriptions of rolls
 }
