@@ -33,6 +33,15 @@ public class Inventory {
             if (dict.get(type) == 0) {
                 System.out.println("NOTICE: The store has run out of " + typeToString(type) + "s!");
             }
+            boolean allOut = true;
+
+            for (int i = 1; i <= 5 && allOut; i++) {
+                if (dict.get(i) > 0)
+                    allOut = false;
+            }
+
+            if (allOut)
+                System.out.println("NOTICE: The store has no more rolls for the day. Please check back tomorrow!");
 
             return true;
         } else {
