@@ -17,7 +17,7 @@ public class CateringOrder extends Order {
     public double placeOrder(Inventory invent) {
         int totalRolls = 15;
         if(canFillOrder(invent)){
-            System.out.println("A catering customer was able to place an order with total $" + this.getTotal() + " with the following rolls:");
+            System.out.println("A catering customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");
             submitOrder(invent);
             return getTotal();
         } else{
@@ -74,7 +74,7 @@ public class CateringOrder extends Order {
             }
 
             if (this.rolls.size() > 0 && canFillOrder(invent)) {
-                System.out.println("A catering customer was able to place an order with total $" + this.getTotal() + " with the following rolls:");
+                System.out.println("A catering customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");
                 submitOrder(invent);
                 return getTotal();
             } else {

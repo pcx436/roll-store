@@ -14,7 +14,7 @@ public class BusinessOrder extends Order {
     @Override
     public double placeOrder(Inventory invent) {
         if (canFillOrder(invent)) {
-            System.out.println("A business customer was able to place an order with total $" + this.getTotal() + " with the following rolls:");
+            System.out.println("A business customer was able to place an order with total $" + df.format(this.getTotal()) + " with the following rolls:");
             submitOrder(invent);
             return getTotal();
         }

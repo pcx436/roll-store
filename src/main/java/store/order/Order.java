@@ -3,11 +3,13 @@ package store.order;
 import store.Inventory;
 import store.roll.Roll;
 
+import java.text.DecimalFormat;
 import java.util.List;
 
 public abstract class Order {
     protected List<Roll> rolls;
     protected int[] rollCount = {0, 0, 0, 0, 0};
+    protected final DecimalFormat df = new DecimalFormat("#.##");
 
     public Order(List<Roll> rolls) {
         this.setRolls(rolls);
