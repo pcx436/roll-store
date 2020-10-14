@@ -1,4 +1,6 @@
-package store.roll.RolllDecorator;
+package store.roll.RollDecorator;
 
-public abstract class RollDecorator {
+import store.roll.Roll;
+
+public abstract class RollDecorator implements Roll {
 }

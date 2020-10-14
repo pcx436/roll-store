@@ -1,4 +1,4 @@
-package store.roll.RolllDecorator;
+package store.roll.RollDecorator;
 
-public class ExtraTopping {
+public class ExtraTopping extends RollDecorator {
 }
