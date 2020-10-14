@@ -1,0 +1,1536 @@
+It is day #1
+The current inventory is as follows:
+	spring roll: 30
+	egg roll: 30
+	sausage roll: 30
+	pastry roll: 30
+	jelly roll: 30
+A casual customer was able to place an order with total $40.59 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra topping
+A business customer was able to place an order with total $512.73 with the following rolls:
+	spring roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	sausage roll, with extra sauce
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra filling, with extra topping, with extra topping
+A business customer was able to place an order with total $407.74 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra topping
+	sausage roll, with extra filling, with extra topping
+	sausage roll, with extra sauce
+	pastry roll, with extra sauce, with extra filling
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+A business customer was able to place an order with total $410.98 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce
+	egg roll, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra topping
+	pastry roll, with extra topping, with extra topping
+	pastry roll, with extra filling
+	jelly roll, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+A catering customer was able to place an order with total $855.79 with the following rolls:
+	pastry roll, with extra sauce, with extra sauce
+	pastry roll, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	pastry roll, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra filling
+	sausage roll, with extra topping
+	sausage roll, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	jelly roll
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra topping, with extra topping
+A catering customer was able to place an order with total $613.13 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce
+	egg roll, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+A casual customer was able to place an order with total $11.43 with the following rolls:
+	pastry roll, with extra sauce, with extra filling
+A catering customer was able to place an order with total $338.14 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra sauce, with extra topping
+	sausage roll, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+	jelly roll
+	jelly roll, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce
+	spring roll, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 17
+	sausage roll: 14
+	pastry roll: 18
+	jelly roll: 9
+The net profit for today was $3190.53
+The net profit for each type of customer was:
+	$52.02 from casual customers.
+	$1331.45 from business customers.
+	$1807.06 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+17 spring rolls were sold today
+13 egg rolls were sold today
+16 sausage rolls were sold today
+12 pastry rolls were sold today
+21 jelly rolls were sold today
+It is day #2
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 17
+	sausage roll: 14
+	pastry roll: 18
+	jelly roll: 9
+A business customer was able to place an order with total $248.85 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce
+	egg roll, with extra sauce, with extra topping
+	egg roll, with extra sauce
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll
+	pastry roll
+	jelly roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra filling, with extra topping
+A casual customer was able to place an order with total $201.08 with the following rolls:
+	spring roll, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+A casual customer was able to place an order with total $25.59 with the following rolls:
+	spring roll, with extra sauce
+	jelly roll, with extra sauce
+	sausage roll, with extra filling
+A business customer was able to place an order with total $526.35 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce
+A catering customer was able to place an order with total $891.8 with the following rolls:
+	egg roll, with extra sauce, with extra filling
+	egg roll, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 7
+	sausage roll: 9
+	pastry roll: 8
+	jelly roll: 4
+The net profit for today was $1893.67
+The net profit for each type of customer was:
+	$226.67 from casual customers.
+	$775.2 from business customers.
+	$891.8 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+28 spring rolls were sold today
+23 egg rolls were sold today
+21 sausage rolls were sold today
+22 pastry rolls were sold today
+26 jelly rolls were sold today
+It is day #3
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 7
+	sausage roll: 9
+	pastry roll: 8
+	jelly roll: 4
+A catering customer was able to place an order with total $857.53 with the following rolls:
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll
+	pastry roll, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping, with extra topping
+NOTICE: The store has run out of spring rolls!
+	jelly roll, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+NOTICE: The store has run out of jelly rolls!
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra filling
+	sausage roll, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+A business customer was unable to fill their order.
+A business customer was unable to fill their order.
+A casual customer was able to place an order with total $4.19 with the following rolls:
+	egg roll, with extra sauce, with extra sauce, with extra sauce
+A catering customer was unable to complete their order.
+A catering customer was unable to complete their order.
+A casual customer was able to place an order with total $11.38 with the following rolls:
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra topping
+The current inventory is as follows:
+	spring roll: 0
+	egg roll: 4
+	sausage roll: 5
+	pastry roll: 3
+	jelly roll: 0
+The net profit for today was $873.1
+The net profit for each type of customer was:
+	$15.57 from casual customers.
+	$0 from business customers.
+	$857.53 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	2 from business customers.
+	2 from catering customers.
+30 spring rolls were sold today
+26 egg rolls were sold today
+25 sausage rolls were sold today
+27 pastry rolls were sold today
+30 jelly rolls were sold today
+It is day #4
+The current inventory is as follows:
+	spring roll: 30
+	egg roll: 4
+	sausage roll: 5
+	pastry roll: 3
+	jelly roll: 30
+A catering customer was unable to complete their order.
+A casual customer was able to place an order with total $251.07 with the following rolls:
+	jelly roll, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra topping, with extra topping
+A business customer was able to place an order with total $209.99 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce
+NOTICE: The store has run out of pastry rolls!
+	jelly roll, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce
+A casual customer was able to place an order with total $10.39 with the following rolls:
+	egg roll, with extra sauce, with extra topping, with extra topping
+NOTICE: The store has run out of egg rolls!
+A casual customer was able to place an order with total $78.81 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+A casual customer was able to place an order with total $136.98 with the following rolls:
+	sausage roll, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+A business customer was unable to fill their order.
+A business customer was unable to fill their order.
+A catering customer was able to place an order with total $599.7 with the following rolls:
+	sausage roll, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+NOTICE: The store has run out of sausage rolls!
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra topping, with extra topping
+A catering customer was able to place an order with total $529.6 with the following rolls:
+	jelly roll, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra topping
+	jelly roll, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 10
+	egg roll: 0
+	sausage roll: 0
+	pastry roll: 0
+	jelly roll: 15
+The net profit for today was $1816.54
+The net profit for each type of customer was:
+	$477.25 from casual customers.
+	$209.99 from business customers.
+	$1129.3 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	2 from business customers.
+	1 from catering customers.
+20 spring rolls were sold today
+30 egg rolls were sold today
+30 sausage rolls were sold today
+30 pastry rolls were sold today
+15 jelly rolls were sold today
+It is day #5
+The current inventory is as follows:
+	spring roll: 10
+	egg roll: 30
+	sausage roll: 30
+	pastry roll: 30
+	jelly roll: 15
+A catering customer was able to place an order with total $362.21 with the following rolls:
+	egg roll, with extra sauce
+	egg roll
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	egg roll
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra filling
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra topping
+	sausage roll, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce
+	jelly roll, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+A casual customer was able to place an order with total $45.33 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra filling
+A catering customer was able to place an order with total $546.95 with the following rolls:
+	jelly roll
+	jelly roll, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra filling, with extra topping, with extra topping
+	egg roll
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra topping, with extra topping
+A casual customer was able to place an order with total $167.07 with the following rolls:
+	pastry roll, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra sauce
+	jelly roll, with extra filling, with extra topping, with extra topping
+A business customer was able to place an order with total $185.57 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra sauce, with extra sauce
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+A business customer was unable to fill their order.
+A casual customer was able to place an order with total $20.79 with the following rolls:
+	pastry roll, with extra sauce
+	spring roll, with extra filling, with extra topping
+NOTICE: The store has run out of spring rolls!
+A catering customer was able to place an order with total $619.73 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra filling, with extra topping
+	sausage roll, with extra topping
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce
+	jelly roll, with extra topping
+NOTICE: The store has run out of jelly rolls!
+	sausage roll, with extra topping, with extra topping
+	sausage roll, with extra filling
+	sausage roll, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+The current inventory is as follows:
+	spring roll: 0
+	egg roll: 18
+	sausage roll: 13
+	pastry roll: 21
+	jelly roll: 0
+The net profit for today was $1947.65
+The net profit for each type of customer was:
+	$233.19 from casual customers.
+	$185.57 from business customers.
+	$1528.89 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	1 from business customers.
+	0 from catering customers.
+30 spring rolls were sold today
+12 egg rolls were sold today
+17 sausage rolls were sold today
+9 pastry rolls were sold today
+30 jelly rolls were sold today
+It is day #6
+The current inventory is as follows:
+	spring roll: 30
+	egg roll: 18
+	sausage roll: 13
+	pastry roll: 21
+	jelly roll: 30
+A business customer was able to place an order with total $551.63 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra topping
+	egg roll
+	egg roll, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra topping, with extra topping
+A casual customer was able to place an order with total $27.81 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce
+A catering customer was able to place an order with total $698.09 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra filling
+	egg roll
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra topping
+	pastry roll, with extra filling, with extra topping
+A casual customer was able to place an order with total $29.28 with the following rolls:
+	pastry roll, with extra sauce, with extra filling
+	sausage roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra topping, with extra topping
+A casual customer was able to place an order with total $40.77 with the following rolls:
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	pastry roll
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+A casual customer was able to place an order with total $186.08 with the following rolls:
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra filling
+	egg roll, with extra topping
+A casual customer was able to place an order with total $260.03 with the following rolls:
+	pastry roll, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+A casual customer was able to place an order with total $20.52 with the following rolls:
+	sausage roll, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra filling
+	sausage roll, with extra sauce, with extra sauce, with extra sauce
+A casual customer was able to place an order with total $187.8 with the following rolls:
+	jelly roll, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+A casual customer was able to place an order with total $11.16 with the following rolls:
+	spring roll, with extra filling, with extra topping
+	sausage roll, with extra filling, with extra topping
+A casual customer was able to place an order with total $37.78 with the following rolls:
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+A casual customer was able to place an order with total $19.75 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+A casual customer was able to place an order with total $43.12 with the following rolls:
+	spring roll, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+A casual customer was able to place an order with total $0.35 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 21
+	egg roll: 8
+	sausage roll: 5
+	pastry roll: 9
+	jelly roll: 17
+The net profit for today was $2114.17
+The net profit for each type of customer was:
+	$864.45 from casual customers.
+	$551.63 from business customers.
+	$698.09 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+9 spring rolls were sold today
+22 egg rolls were sold today
+25 sausage rolls were sold today
+21 pastry rolls were sold today
+13 jelly rolls were sold today
+It is day #7
+The current inventory is as follows:
+	spring roll: 21
+	egg roll: 8
+	sausage roll: 5
+	pastry roll: 9
+	jelly roll: 17
+A business customer was able to place an order with total $329.05 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra filling
+	sausage roll, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra filling
+	pastry roll, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra filling, with extra topping
+	jelly roll, with extra topping, with extra topping
+A business customer was able to place an order with total $419.08 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+A casual customer was able to place an order with total $140.71 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll
+A casual customer was able to place an order with total $89.01 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+NOTICE: The store has run out of sausage rolls!
+A casual customer was able to place an order with total $114.55 with the following rolls:
+	egg roll, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping
+A business customer was unable to fill their order.
+A casual customer was able to place an order with total $11.49 with the following rolls:
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+NOTICE: The store has run out of egg rolls!
+A casual customer was able to place an order with total $18.9 with the following rolls:
+	jelly roll, with extra sauce
+A casual customer was able to place an order with total $137.72 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+A catering customer was able to place an order with total $1088.84 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce
+	spring roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+NOTICE: The store has run out of pastry rolls!
+	jelly roll
+	jelly roll, with extra sauce
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce
+A catering customer was able to place an order with total $421.64 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra topping
+	spring roll, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce
+	spring roll, with extra sauce, with extra sauce, with extra topping
+NOTICE: The store has run out of spring rolls!
+	jelly roll, with extra sauce, with extra filling
+	jelly roll, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+NOTICE: The store has run out of jelly rolls!
+NOTICE: The store has no more rolls for the day. Please check back tomorrow!
+The current inventory is as follows:
+	spring roll: 0
+	egg roll: 0
+	sausage roll: 0
+	pastry roll: 0
+	jelly roll: 0
+The net profit for today was $2770.99
+The net profit for each type of customer was:
+	$512.38 from casual customers.
+	$748.13 from business customers.
+	$1510.48 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	1 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+30 spring rolls were sold today
+30 egg rolls were sold today
+30 sausage rolls were sold today
+30 pastry rolls were sold today
+30 jelly rolls were sold today
+It is day #8
+The current inventory is as follows:
+	spring roll: 30
+	egg roll: 30
+	sausage roll: 30
+	pastry roll: 30
+	jelly roll: 30
+A catering customer was able to place an order with total $669.73 with the following rolls:
+	pastry roll, with extra sauce, with extra sauce, with extra topping
+	pastry roll
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce
+	egg roll, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra filling
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 25
+	sausage roll: 30
+	pastry roll: 25
+	jelly roll: 30
+The net profit for today was $669.73
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$669.73 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+5 spring rolls were sold today
+5 egg rolls were sold today
+0 sausage rolls were sold today
+5 pastry rolls were sold today
+0 jelly rolls were sold today
+It is day #9
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 25
+	sausage roll: 30
+	pastry roll: 25
+	jelly roll: 30
+A business customer was able to place an order with total $380.94 with the following rolls:
+	spring roll, with extra sauce, with extra sauce
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra filling
+	sausage roll, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra topping, with extra topping
+	pastry roll, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+The current inventory is as follows:
+	spring roll: 23
+	egg roll: 23
+	sausage roll: 28
+	pastry roll: 23
+	jelly roll: 28
+The net profit for today was $380.94
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$380.94 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+7 spring rolls were sold today
+7 egg rolls were sold today
+2 sausage rolls were sold today
+7 pastry rolls were sold today
+2 jelly rolls were sold today
+It is day #10
+The current inventory is as follows:
+	spring roll: 23
+	egg roll: 23
+	sausage roll: 28
+	pastry roll: 23
+	jelly roll: 28
+A catering customer was able to place an order with total $120.41 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce, with extra sauce
+	sausage roll, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra filling
+	sausage roll, with extra topping
+	sausage roll, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra topping, with extra topping
+	egg roll, with extra sauce
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 18
+	egg roll: 18
+	sausage roll: 23
+	pastry roll: 23
+	jelly roll: 28
+The net profit for today was $120.41
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$120.41 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+12 spring rolls were sold today
+12 egg rolls were sold today
+7 sausage rolls were sold today
+7 pastry rolls were sold today
+2 jelly rolls were sold today
+It is day #11
+The current inventory is as follows:
+	spring roll: 18
+	egg roll: 18
+	sausage roll: 23
+	pastry roll: 23
+	jelly roll: 28
+A casual customer was able to place an order with total $9.92 with the following rolls:
+	pastry roll, with extra sauce
+The current inventory is as follows:
+	spring roll: 18
+	egg roll: 18
+	sausage roll: 23
+	pastry roll: 22
+	jelly roll: 28
+The net profit for today was $9.92
+The net profit for each type of customer was:
+	$9.92 from casual customers.
+	$0 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+12 spring rolls were sold today
+12 egg rolls were sold today
+7 sausage rolls were sold today
+8 pastry rolls were sold today
+2 jelly rolls were sold today
+It is day #12
+The current inventory is as follows:
+	spring roll: 18
+	egg roll: 18
+	sausage roll: 23
+	pastry roll: 22
+	jelly roll: 28
+A catering customer was able to place an order with total $119.5 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra topping, with extra topping
+	spring roll, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra sauce
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra filling
+	egg roll, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 13
+	sausage roll: 18
+	pastry roll: 22
+	jelly roll: 28
+The net profit for today was $119.5
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$119.5 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+17 spring rolls were sold today
+17 egg rolls were sold today
+12 sausage rolls were sold today
+8 pastry rolls were sold today
+2 jelly rolls were sold today
+It is day #13
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 13
+	sausage roll: 18
+	pastry roll: 22
+	jelly roll: 28
+A casual customer was able to place an order with total $107.2 with the following rolls:
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 13
+	sausage roll: 18
+	pastry roll: 21
+	jelly roll: 28
+The net profit for today was $107.2
+The net profit for each type of customer was:
+	$107.2 from casual customers.
+	$0 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+17 spring rolls were sold today
+17 egg rolls were sold today
+12 sausage rolls were sold today
+9 pastry rolls were sold today
+2 jelly rolls were sold today
+It is day #14
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 13
+	sausage roll: 18
+	pastry roll: 21
+	jelly roll: 28
+A casual customer was able to place an order with total $10.99 with the following rolls:
+	jelly roll, with extra filling
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 13
+	sausage roll: 18
+	pastry roll: 21
+	jelly roll: 27
+The net profit for today was $10.99
+The net profit for each type of customer was:
+	$10.99 from casual customers.
+	$0 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+17 spring rolls were sold today
+17 egg rolls were sold today
+12 sausage rolls were sold today
+9 pastry rolls were sold today
+3 jelly rolls were sold today
+It is day #15
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 13
+	sausage roll: 18
+	pastry roll: 21
+	jelly roll: 27
+A business customer was able to place an order with total $594.99 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra topping
+The current inventory is as follows:
+	spring roll: 11
+	egg roll: 11
+	sausage roll: 16
+	pastry roll: 19
+	jelly roll: 25
+The net profit for today was $594.99
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$594.99 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+19 spring rolls were sold today
+19 egg rolls were sold today
+14 sausage rolls were sold today
+11 pastry rolls were sold today
+5 jelly rolls were sold today
+It is day #16
+The current inventory is as follows:
+	spring roll: 11
+	egg roll: 11
+	sausage roll: 16
+	pastry roll: 19
+	jelly roll: 25
+A catering customer was able to place an order with total $1076.89 with the following rolls:
+	pastry roll, with extra filling, with extra topping
+	pastry roll
+	pastry roll, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra topping, with extra topping
+	spring roll
+	spring roll, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 6
+	egg roll: 11
+	sausage roll: 16
+	pastry roll: 14
+	jelly roll: 20
+The net profit for today was $1076.89
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$1076.89 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+24 spring rolls were sold today
+19 egg rolls were sold today
+14 sausage rolls were sold today
+16 pastry rolls were sold today
+10 jelly rolls were sold today
+It is day #17
+The current inventory is as follows:
+	spring roll: 6
+	egg roll: 11
+	sausage roll: 16
+	pastry roll: 14
+	jelly roll: 20
+A casual customer was able to place an order with total $137.72 with the following rolls:
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 6
+	egg roll: 11
+	sausage roll: 16
+	pastry roll: 14
+	jelly roll: 19
+The net profit for today was $137.72
+The net profit for each type of customer was:
+	$137.72 from casual customers.
+	$0 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+24 spring rolls were sold today
+19 egg rolls were sold today
+14 sausage rolls were sold today
+16 pastry rolls were sold today
+11 jelly rolls were sold today
+It is day #18
+The current inventory is as follows:
+	spring roll: 6
+	egg roll: 11
+	sausage roll: 16
+	pastry roll: 14
+	jelly roll: 19
+A business customer was able to place an order with total $492.74 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra filling
+	pastry roll, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 4
+	egg roll: 9
+	sausage roll: 14
+	pastry roll: 12
+	jelly roll: 17
+The net profit for today was $492.74
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$492.74 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+26 spring rolls were sold today
+21 egg rolls were sold today
+16 sausage rolls were sold today
+18 pastry rolls were sold today
+13 jelly rolls were sold today
+It is day #19
+The current inventory is as follows:
+	spring roll: 4
+	egg roll: 9
+	sausage roll: 14
+	pastry roll: 12
+	jelly roll: 17
+A business customer was able to place an order with total $281.6 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce
+	sausage roll, with extra sauce
+	sausage roll, with extra sauce, with extra sauce, with extra sauce
+	pastry roll, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra filling
+	jelly roll, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 7
+	sausage roll: 12
+	pastry roll: 10
+	jelly roll: 15
+The net profit for today was $281.6
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$281.6 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+28 spring rolls were sold today
+23 egg rolls were sold today
+18 sausage rolls were sold today
+20 pastry rolls were sold today
+15 jelly rolls were sold today
+It is day #20
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 7
+	sausage roll: 12
+	pastry roll: 10
+	jelly roll: 15
+A catering customer was able to place an order with total $979.49 with the following rolls:
+	jelly roll
+	jelly roll, with extra sauce, with extra sauce
+	jelly roll, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling
+	pastry roll, with extra topping, with extra topping
+	pastry roll, with extra filling, with extra topping
+	pastry roll, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 2
+	sausage roll: 12
+	pastry roll: 5
+	jelly roll: 10
+The net profit for today was $979.49
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$979.49 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+28 spring rolls were sold today
+28 egg rolls were sold today
+18 sausage rolls were sold today
+25 pastry rolls were sold today
+20 jelly rolls were sold today
+It is day #21
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 2
+	sausage roll: 12
+	pastry roll: 5
+	jelly roll: 10
+A catering customer was able to place an order with total $1293.93 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	sausage roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	sausage roll, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra filling
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping
+	pastry roll, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+NOTICE: The store has run out of pastry rolls!
+	jelly roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	jelly roll, with extra sauce
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 2
+	sausage roll: 7
+	pastry roll: 0
+	jelly roll: 5
+The net profit for today was $1293.93
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$1293.93 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+28 spring rolls were sold today
+28 egg rolls were sold today
+23 sausage rolls were sold today
+30 pastry rolls were sold today
+25 jelly rolls were sold today
+It is day #22
+The current inventory is as follows:
+	spring roll: 2
+	egg roll: 2
+	sausage roll: 7
+	pastry roll: 30
+	jelly roll: 5
+A business customer was able to place an order with total $384.95 with the following rolls:
+	spring roll, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping, with extra topping
+NOTICE: The store has run out of spring rolls!
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+NOTICE: The store has run out of egg rolls!
+	sausage roll, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra topping
+	pastry roll, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	jelly roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	jelly roll, with extra filling
+The current inventory is as follows:
+	spring roll: 0
+	egg roll: 0
+	sausage roll: 5
+	pastry roll: 28
+	jelly roll: 3
+The net profit for today was $384.95
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$384.95 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+30 spring rolls were sold today
+30 egg rolls were sold today
+25 sausage rolls were sold today
+2 pastry rolls were sold today
+27 jelly rolls were sold today
+It is day #23
+The current inventory is as follows:
+	spring roll: 30
+	egg roll: 30
+	sausage roll: 5
+	pastry roll: 28
+	jelly roll: 3
+A catering customer was able to place an order with total $784.01 with the following rolls:
+	pastry roll, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra topping, with extra topping
+	sausage roll
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+NOTICE: The store has run out of sausage rolls!
+	spring roll, with extra sauce, with extra sauce, with extra sauce
+	spring roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 30
+	sausage roll: 0
+	pastry roll: 23
+	jelly roll: 3
+The net profit for today was $784.01
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$784.01 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+5 spring rolls were sold today
+0 egg rolls were sold today
+30 sausage rolls were sold today
+7 pastry rolls were sold today
+27 jelly rolls were sold today
+It is day #24
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 30
+	sausage roll: 30
+	pastry roll: 23
+	jelly roll: 3
+A casual customer was able to place an order with total $11.52 with the following rolls:
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 29
+	sausage roll: 29
+	pastry roll: 23
+	jelly roll: 3
+The net profit for today was $11.52
+The net profit for each type of customer was:
+	$11.52 from casual customers.
+	$0 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+5 spring rolls were sold today
+1 egg rolls were sold today
+1 sausage rolls were sold today
+7 pastry rolls were sold today
+27 jelly rolls were sold today
+It is day #25
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 29
+	sausage roll: 29
+	pastry roll: 23
+	jelly roll: 3
+A casual customer was able to place an order with total $6.89 with the following rolls:
+	egg roll, with extra sauce, with extra topping
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 28
+	sausage roll: 29
+	pastry roll: 23
+	jelly roll: 3
+The net profit for today was $6.89
+The net profit for each type of customer was:
+	$6.89 from casual customers.
+	$0 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+5 spring rolls were sold today
+2 egg rolls were sold today
+1 sausage rolls were sold today
+7 pastry rolls were sold today
+27 jelly rolls were sold today
+It is day #26
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 28
+	sausage roll: 29
+	pastry roll: 23
+	jelly roll: 3
+A catering customer was able to place an order with total $271.92 with the following rolls:
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra filling
+	sausage roll, with extra sauce
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra filling
+	pastry roll, with extra sauce, with extra topping
+	pastry roll, with extra filling, with extra topping
+	pastry roll, with extra filling
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	pastry roll, with extra sauce, with extra sauce, with extra filling
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 23
+	sausage roll: 24
+	pastry roll: 18
+	jelly roll: 3
+The net profit for today was $271.92
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$271.92 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+5 spring rolls were sold today
+7 egg rolls were sold today
+6 sausage rolls were sold today
+12 pastry rolls were sold today
+27 jelly rolls were sold today
+It is day #27
+The current inventory is as follows:
+	spring roll: 25
+	egg roll: 23
+	sausage roll: 24
+	pastry roll: 18
+	jelly roll: 3
+A business customer was able to place an order with total $287.5 with the following rolls:
+	spring roll, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce
+	egg roll, with extra sauce, with extra sauce, with extra sauce
+	egg roll, with extra filling
+	sausage roll, with extra sauce, with extra topping
+	sausage roll, with extra topping
+	pastry roll
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	jelly roll, with extra filling, with extra topping
+The current inventory is as follows:
+	spring roll: 23
+	egg roll: 21
+	sausage roll: 22
+	pastry roll: 16
+	jelly roll: 1
+The net profit for today was $287.5
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$287.5 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+7 spring rolls were sold today
+9 egg rolls were sold today
+8 sausage rolls were sold today
+14 pastry rolls were sold today
+29 jelly rolls were sold today
+It is day #28
+The current inventory is as follows:
+	spring roll: 23
+	egg roll: 21
+	sausage roll: 22
+	pastry roll: 16
+	jelly roll: 1
+A catering customer was able to place an order with total $601.93 with the following rolls:
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	pastry roll, with extra filling
+	pastry roll, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra topping
+The current inventory is as follows:
+	spring roll: 18
+	egg roll: 16
+	sausage roll: 22
+	pastry roll: 11
+	jelly roll: 1
+The net profit for today was $601.93
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$601.93 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+12 spring rolls were sold today
+14 egg rolls were sold today
+8 sausage rolls were sold today
+19 pastry rolls were sold today
+29 jelly rolls were sold today
+It is day #29
+The current inventory is as follows:
+	spring roll: 18
+	egg roll: 16
+	sausage roll: 22
+	pastry roll: 11
+	jelly roll: 1
+A catering customer was able to place an order with total $1055.75 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra filling
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	spring roll, with extra sauce, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra sauce, with extra filling
+NOTICE: The store has run out of jelly rolls!
+	pastry roll, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra sauce
+	pastry roll, with extra sauce, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce
+	pastry roll, with extra sauce
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra sauce, with extra filling, with extra topping
+	pastry roll, with extra sauce, with extra filling, with extra topping, with extra topping
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 16
+	sausage roll: 22
+	pastry roll: 2
+	jelly roll: 0
+The net profit for today was $1055.75
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$0 from business customers.
+	$1055.75 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+17 spring rolls were sold today
+14 egg rolls were sold today
+8 sausage rolls were sold today
+28 pastry rolls were sold today
+30 jelly rolls were sold today
+It is day #30
+The current inventory is as follows:
+	spring roll: 13
+	egg roll: 16
+	sausage roll: 22
+	pastry roll: 2
+	jelly roll: 30
+A business customer was able to place an order with total $214.76 with the following rolls:
+	spring roll, with extra sauce, with extra sauce, with extra sauce, with extra topping
+	spring roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	egg roll, with extra sauce, with extra sauce, with extra topping
+	egg roll, with extra sauce, with extra topping
+	sausage roll, with extra sauce, with extra sauce, with extra filling, with extra topping, with extra topping
+	sausage roll, with extra sauce, with extra topping, with extra topping
+	pastry roll, with extra sauce, with extra filling
+	pastry roll, with extra filling
+NOTICE: The store has run out of pastry rolls!
+	jelly roll, with extra filling, with extra topping
+	jelly roll, with extra sauce, with extra sauce, with extra topping
+The current inventory is as follows:
+	spring roll: 11
+	egg roll: 14
+	sausage roll: 20
+	pastry roll: 0
+	jelly roll: 28
+The net profit for today was $214.76
+The net profit for each type of customer was:
+	$0 from casual customers.
+	$214.76 from business customers.
+	$0 from catering customers.
+The customers affected by any roll outages are:
+	0 from casual customers.
+	0 from business customers.
+	0 from catering customers.
+The store closed early today due to running out of inventory.
+19 spring rolls were sold today
+16 egg rolls were sold today
+10 sausage rolls were sold today
+30 pastry rolls were sold today
+2 jelly rolls were sold today
+Simulation completed!
+Completion stats:
+	156 spring rolls were sold.
+	139 egg rolls were sold.
+	125 sausage rolls were sold.
+	138 pastry rolls were sold.
+	134 jelly rolls were sold.
+	692 rolls were sold in total.
+	The total profit margin was $24501.93
+	9 customers were impacted by one or more roll outages.
