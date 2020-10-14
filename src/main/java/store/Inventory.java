@@ -3,7 +3,7 @@ package store;
 import java.util.HashMap;
 
 public class Inventory {
-    HashMap<Integer, Integer> dict;
+    private final HashMap<Integer, Integer> dict;
 
     public Inventory(){
         dict = new HashMap<>();
@@ -49,7 +49,7 @@ public class Inventory {
         }
     }
 
-    private String typeToString(int type) {
+    public String typeToString(int type) {
         if (type == 1) {
             return "spring roll";
         }
