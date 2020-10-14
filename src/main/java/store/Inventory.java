@@ -49,7 +49,7 @@ public class Inventory {
         }
     }
 
-    private String typeToString(int type) {
+    public String typeToString(int type) {
         if (type == 1) {
             return "spring roll";
         }
