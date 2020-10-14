@@ -7,7 +7,6 @@ import store.roll.RollFactory;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class CasualOrder extends Order {
     public CasualOrder(List<Roll> rolls) {
