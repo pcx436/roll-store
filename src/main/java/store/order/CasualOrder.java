@@ -2,6 +2,7 @@ package store.order;
 
 import store.Inventory;
 import store.roll.Roll;
+import store.roll.RollFactory;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,6 +24,7 @@ public class CasualOrder extends Order {
             }
             return true;
         } else {  // cannot fill order, figure it out
+            RollFactory rollFactory = new RollFactory();
             List<Integer> rollKeys = new ArrayList<>();
             int originalRollCount = 0;
             for(int i = 0; i < 5; i++) {
